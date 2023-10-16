@@ -1,0 +1,29 @@
+.newemployee-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Adjust the z-index value as needed */
+  }
+  
+  .newemployee-content {
+    background-color: white;
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative; /* Ensure relative positioning for z-index to work */
+    z-index: 1001; /* Higher z-index value than the overlay */
+    width: 60%; /* Adjust the width as needed */
+    height: 60%; /* Adjust the max height as needed */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+  }
+
+
+
+  
